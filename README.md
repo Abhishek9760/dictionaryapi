@@ -1,33 +1,34 @@
-### GET ALL WORDS RELATED TO A CHATID             [GET]
+### GET ALL WORDS RELATED TO A CHATID                                               [GET]
 
-/api/word/?chatid=<chatid>
+/api/word/?chatid=**chatid**
 
-# GET SINGLE WORD RELATED TO A CHATID           [GET]
+### GET SINGLE WORD RELATED TO A CHATID                                             [GET]
 
-/api/word/?chatid=<chatid>&word=<word>
+/api/word/?chatid=**chatid**&word=**word**
 
-# GET MEANINGFUL OR !MEANINGFUL WORD RELATED    [GET]
-# TO A CHATID
-/api/word/?meaningful=<0 or 1>&chatid=<chatid>
+### GET MEANINGFUL OR !MEANINGFUL WORD RELATED TO A CHATID                          [GET]
 
-# SAVE USER INFO TO CHATID DATABASE                   [POST]
-/api/chatid/?name=<name>&username=<username>
+/api/word/?meaningful=**0 or 1**&chatid=**chatid**
+
+### SAVE USER INFO TO CHATID DATABASE                                               [POST]
+
+/api/chatid/?name=**name**&username=**username**
 {
-    "chat_id":<int:chatid>
+    "chat_id":**chatid**
 }
 
-# ADD WORD TO CHAT ID                           [POST]
+### ADD WORD TO CHAT ID                                                             [POST]
 
-/api/word/?chatid=<chatid>
+/api/word/?chatid=**atid**
+
 {
-    "word": <str:word>
+    "word": **r:word**
 }
 
-# DELETE A WORD RELATED TO A SPECIFIC CHATID    [DELETE]
+### DELETE A WORD RELATED TO A SPECIFIC CHATID                                      [DELETE]
 
-/api/word/<word>/?chatid=<chatid>
+/api/word/**word**/?chatid=**chatid**
 
-# DELETE WHOLE CHATID                           [DELETE]
+### DELETE WHOLE CHATID                                                             [DELETE]
 
-/api/chatid/<chatid>
-
+/api/chatid/**chatid**
