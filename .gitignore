@@ -1,0 +1,10 @@
+/Include/*
+/Include
+usage.md
+pyvenv.cfg
+/Lib
+/Lib/*
+/Scripts
+/Scripts/*
+/.vscode
+/.vscode/*
