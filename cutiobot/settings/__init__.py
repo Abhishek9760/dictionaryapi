@@ -1,1 +1,4 @@
-from .production import *
+try:
+    from .production import *
+except:
+    pass
