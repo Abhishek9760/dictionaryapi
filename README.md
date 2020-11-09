@@ -1,4 +1,4 @@
-# GET ALL WORDS RELATED TO A CHATID             [GET]
+### GET ALL WORDS RELATED TO A CHATID             [GET]
 
 /api/word/?chatid=<chatid>
 
